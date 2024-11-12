@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+  
+.poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+  
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #262626;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+}
+
+.titulo {
+    @apply lg:text-[60px] font-bold leading-[0.9] text-[40px] lg:text-start text-center ;
+}
