@@ -8,14 +8,14 @@ const Proyectos = () => {
         {
           id: 1,
           title: "Cuarto Bar",
-          subtitle: "Pagina de informacion de licores",
+          subtitle: "Página de información de licores",
           image: imgPro1,
           href: "https://www.cuartobar.com"
         },
         {
           id: 2,
           title: "Argos Natural",
-          subtitle: "Pagina acerca de Gomas vegetales", 
+          subtitle: "Página acerca de Gomas vegetales", 
           image: imgPro2,
           href: "https://santiago290.github.io/argosNatural"
         },
