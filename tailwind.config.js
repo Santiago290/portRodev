@@ -21,7 +21,8 @@ export default {
         naranja:"#A64B37",
         amarillo: "#F2B872",
         blanco:"#F2F2F2",
-        oscuro: "rgba(166, 75, 55, 0.8)"
+        oscuro: "rgba(166, 75, 55, 0.8)",
+        field: "#202020"
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, rgba(255,255,255,1) 10%, rgba(0,0,0,0) 50%, rgba(255,255,255,1) 90%)',

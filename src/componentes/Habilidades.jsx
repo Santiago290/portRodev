@@ -5,6 +5,8 @@ import javascript from "../assets/icons/javascript.svg"
 import git from "../assets/icons/git.svg"
 import react from "../assets/icons/react.svg"
 import figma from "../assets/icons/figma.svg"
+import node from "../assets/icons/node.svg"
+import tailwind from "../assets/icons/tailwind.svg"
 
 const Habilidades = () => {
     const habilidades = [
@@ -15,18 +17,28 @@ const Habilidades = () => {
         },
         {
           name: "CSS",
-          description: "Herramienta de estilos",
+          description: "Hoja de Estilos",
           icon: css,
         },
         {
           name: "JavaScript",
-          description: "Lenguaje de Programación",
+          description: "Lenguaje Programación",
           icon: javascript,
         },
         {
           name: "React",
-          description: "Libreria de React",
+          description: "Biblioteca JavaScript",
           icon: react,
+        },
+        {
+          name: "Node",
+          description: "Entorno JavaScript",
+          icon: node,
+        },
+        {
+          name: "Tailwind",
+          description: "Framework CSS.",
+          icon: tailwind,
         },
         {
           name: "Figma",
@@ -47,7 +59,7 @@ const Habilidades = () => {
             <div >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-3xl mx-auto">
                     {habilidades.map((habl) => (
-                    <div key={habl.name} className="flex items-center gap-4 p-4 rounded-lg hover:bg-zinc-800/50 cursor-pointer">
+                    <div key={habl.name} className="flex items-center gap-4 p-4 rounded-lg hover:bg-zinc-900/80 cursor-pointer">
                         <div className="h-14 w-14 rounded-xl bg-white flex items-center justify-center border-0">
                             <img src={habl.icon} alt="" className="w-[40px] h-[40px] object-contain" />
                         </div>

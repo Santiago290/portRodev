@@ -1,4 +1,7 @@
 import React from 'react'
+import imgPro1 from '../assets/imgProy1.svg'
+import imgPro2 from '../assets/imgProy2.svg'
+import imgPro3 from '../assets/imgProy3.svg'
 
 const Proyectos = () => {
     const projectos = [
@@ -6,16 +9,23 @@ const Proyectos = () => {
           id: 1,
           title: "Cuarto Bar",
           subtitle: "Pagina de informacion de licores",
-          image: "https://www.cuartobar.com/Recursos/Logo.png",
+          image: imgPro1,
           href: "https://www.cuartobar.com"
         },
         {
           id: 2,
           title: "Argos Natural",
           subtitle: "Pagina acerca de Gomas vegetales", 
-          image: "https://santiago290.github.io/argosNatural/imagenes/isotipo.png",
+          image: imgPro2,
           href: "https://santiago290.github.io/argosNatural"
         },
+        {
+            id: 3,
+            title: "Jarana Studio",
+            subtitle: "Proyecto en proceso", 
+            image: imgPro3,
+            href: "https://santiago290.github.io/argosNatural"
+          },
       ]
     return (
     <div>
@@ -26,10 +36,10 @@ const Proyectos = () => {
         <div id="proyectos" className='mt-2 sm:mt-6 max-w-[90%] m-auto md:mx-0'>
             {projectos.map((proyecto)=>(
                 <a href={proyecto.href} target="_blank" key={proyecto.id}>
-                    <div className='cursor-pointer py-[20px] px-[16px] hover:bg-[rgba(0,0,0,0.3)] hover:rounded-xl'>
+                    <div className='cursor-pointer py-[20px] px-[0] smd:px-[20px] hover:bg-[rgba(0,0,0,0.3)] hover:rounded-xl'>
                         <div className="flex gap-6 items-center">
                             <div className="w-20 h-20 md:w-36 md:h-36 rounded-lg overflow-hidden flex justify-center items-center">
-                                <img src={proyecto.image} alt={proyecto.title} className="w-[80%] h-[80%] object-contain"/>
+                                <img src={proyecto.image} alt={proyecto.title} className="w-[100%] h-[100%] object-contain"/>
                             </div>
                             <div className="flex-1 pt-2">
                                 <div className="flex items-center justify-between">
