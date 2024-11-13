@@ -24,7 +24,7 @@ const Proyectos = () => {
             title: "Jarana Studio",
             subtitle: "Proyecto en proceso", 
             image: imgPro3,
-            href: "https://santiago290.github.io/argosNatural"
+            href: "https://santiago290.github.io/jarana/"
           },
       ]
     return (
