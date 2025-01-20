@@ -15,7 +15,7 @@ const Card = () => {
             <div className="flex items-center justify-center mb-6 gap-3">
                 <button className="bg-naranja text-white px-3 py-1 rounded-full text-sm hover:bg-yellow-950">Programador</button>
                 <button className="bg-naranja text-white px-3 py-1 rounded-full text-sm hover:bg-yellow-950">
-                    <a href="https://drive.google.com/file/d/1TkkwqBqtlfYUn9VWv8q54CFr4EAe0Ouo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver mi CV</a>
+                    <a href="https://drive.google.com/file/d/1VOUlXmxcWsVim-rznO1xKaaDy36iPu4i/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver mi CV</a>
                 </button>
             </div>
             <p className="text-gray-600 mb-6 text-center exm:px-0 px-5 leading-5">Soy un desarrollador que busca soluciones innovadoras</p>
