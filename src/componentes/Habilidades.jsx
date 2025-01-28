@@ -50,6 +50,16 @@ const Habilidades = () => {
           description: "Control de Versiones",
           icon: git,
         },
+        {
+          name: "Python",
+          description: "Lenguaje Programación",
+          icon: python,
+        },
+        {
+          name: "MYSQL",
+          description: "Gestion base de datos",
+          icon: mysql,
+        }
       ]
     return (
         <div>

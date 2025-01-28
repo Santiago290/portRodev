@@ -18,7 +18,7 @@ const Card = () => {
                     <a href="https://drive.google.com/file/d/1VOUlXmxcWsVim-rznO1xKaaDy36iPu4i/view?usp=sharing" target="_blank" rel="noopener noreferrer">Ver mi CV</a>
                 </button>
             </div>
-            <p className="text-gray-600 mb-6 text-center exm:px-0 px-5 leading-5">Soy un desarrollador que busca soluciones innovadoras</p>
+            <p className="text-gray-600 mb-6 text-center exm:px-0 px-5 leading-5">Soy un desarrollador enfocado en crear soluciones nuevas que marquen la diferencia.</p>
             <div className="flex gap-4 justify-center items-center mb-6">
                 <a href="https://www.linkedin.com/in/santiago-rodrigo-deza-chest-44638817b " target='_blank' className="text-naranja hover:text-yellow-950">
                     <TiSocialLinkedin className="w-6 h-6" />
