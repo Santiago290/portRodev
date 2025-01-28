@@ -7,6 +7,8 @@ import react from "../assets/icons/react.svg"
 import figma from "../assets/icons/figma.svg"
 import node from "../assets/icons/node.svg"
 import tailwind from "../assets/icons/tailwind.svg"
+import python from "../assets/icons/python.svg"
+import mysql from "../assets/icons/mysql.svg"
 
 const Habilidades = () => {
     const habilidades = [
